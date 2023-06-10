@@ -1,0 +1,34 @@
+body{
+    background:rgb(30, 98, 100);
+}
+
+.imgBox{
+    background-image: url(photo.png);
+    position: relative;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.textBox{
+    position: relative;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.Box{
+    display: inline-block;
+    height: 145px;
+    width: 145px;
+    margin: 10px;
+    background-color: white;
+}
+
+.hold{
+    border:solid red 4px;
+}
+
+.hide{
+    display: none;
+}
